@@ -1,0 +1,19 @@
+DataLoader Performance Test
+-----------------------------------------------------------------
+batch_size  workers   persistent     time(s)   
+32          0         False          0.053476
+32          2         False          0.483882
+32          4         False          0.490610
+64          0         False          0.050437
+64          2         False          0.279912
+64          4         False          0.290682
+128         0         False          0.049611
+128         2         False          0.167870
+128         4         False          0.151232
+
+Persistent Workers Test
+-----------------------------------------------------------------
+64          2         False          0.269254
+64          2         True           0.195612
+64          4         False          0.255173
+64          4         True           0.219551
