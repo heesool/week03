@@ -1,0 +1,19 @@
+Variable Length Sequence Test
+--------------------------------------------------
+Number of sequences:      512
+Maximum sequence length:  255
+Total valid length:       72431
+
+Storage Comparison
+--------------------------------------------------
+Padding positions:        130560
+Packed positions:         72431
+Padding elements:         8355840
+Packed elements:          4635584
+Padding redundancy:       44.52%
+
+Performance Test
+--------------------------------------------------
+Method         Time(s)        
+Padding        0.010361
+Packing        0.003378
